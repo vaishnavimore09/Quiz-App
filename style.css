@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.login-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 163px;
+    padding: 247px 207px 248px 120px;
+}
+
+.login-header>h1 {
+    color: #1C1C1E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#emailLogin {
+    width: 440px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#passwordLogin {
+    width: 440px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.login-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#login-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 100px;
+    background-color: #F3BD00;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.email-section {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+}
+
+.password-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#view-password {
+    position: relative;
+    right: 80px;
+    cursor: pointer;
+}
+
+.showpassword{
+    position: relative;
+    right: 45px;
+    cursor: pointer;
+}
+
+
+.google {
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #FEFEFE;
+    cursor: pointer;
+    box-shadow: 1px 4px 9px 3px #d6d6d6;
+}
+
+.google>p {
+    color: #1C1C1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    align-items: center;
+    justify-content: center;
+}
+
+.have-account{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+/* .body {
+    background-color: white;
+    font-family: "Inter";
+
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    display: inline-flex;
+    padding: 190.5px 207px 191.5px 120px;
+    align-items: center;
+    gap: 163px;
+
+}
+
+.log-in {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.header {
+    display: flex;
+    width: 440px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+.user-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+
+#login-button {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 12px 24px;
+    justify-content: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 100px;
+    background: var(--Brand-Yellow, #F3BD00);
+    border: none;
+    width: 257px;
+} */
